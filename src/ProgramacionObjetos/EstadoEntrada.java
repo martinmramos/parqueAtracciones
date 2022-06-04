@@ -1,2 +1,5 @@
-package ProgramacionObjetos;public class EstadoEntrada {
+package ProgramacionObjetos;
+
+public class EstadoEntrada {
+
 }
