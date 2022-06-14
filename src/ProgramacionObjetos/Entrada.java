@@ -24,11 +24,6 @@ public class Entrada {
         this.ticket = null;
     }
 
-    public Entrada(int asiento, float precio, String estado, Ticket ticket) throws MiExcepcion {
-        validarParametros(asiento, precio, estado);
-        this.ticket = ticket;
-    }
-
     private void validarParametros(int asiento, float precio, String estado) throws MiExcepcion {
         if (asiento <= 0 || asiento > 100)
             throw new MiExcepcion("Los asientos tienen que estar comprendidos entre 1 y 100.");

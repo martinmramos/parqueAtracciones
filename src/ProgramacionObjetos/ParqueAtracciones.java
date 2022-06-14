@@ -47,6 +47,6 @@ public class ParqueAtracciones {
         e1.addTicket(t1);
 
         p1.addEspectaculo(coches);
-        System.out.println(p1);
+        System.out.println(e1);
     }
 }

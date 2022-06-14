@@ -24,7 +24,7 @@ public class Ticket {
 
     public Ticket(LocalDate fecha, float precio, HashSet<Entrada> entrada) throws MiExcepcion {
         validarParametros(fecha, precio);
-        if (entrada.isEmpty()) {
+        if (entrada.isEmpty() || entrada == null) {
             this.entrada = null;
         } else {
             this.entrada = entrada;
